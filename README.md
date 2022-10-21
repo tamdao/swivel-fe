@@ -5,6 +5,7 @@
 </p>
 
 <img width="1609" alt="Swivel-fe To Do" src="./bg.png">
+<img width="1609" alt="Swivel-fe To Do" src="./coverage.png">
 
 ## Installation
 
@@ -28,4 +29,3 @@ $ yarn dev
 $ yarn start:ci
 $ yarn test
 ```
-
