@@ -4,19 +4,34 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "start:ci": "INSTRUMENT_COVERAGE=true next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "cypress open"
   },
   "dependencies": {
+    "@cypress/code-coverage": "^3.10.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/lab": "^5.0.0-alpha.104",
+    "@mui/material": "^5.10.10",
+    "@tanstack/react-query": "^4.12.0",
+    "formik": "^2.2.9",
     "next": "12.3.1",
+    "notistack": "^2.0.8",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "yup": "^0.32.11",
+    "yup-phone": "^1.3.2"
   },
   "devDependencies": {
     "@types/node": "18.11.2",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
+    "babel-plugin-istanbul": "^6.1.1",
+    "cypress": "^10.10.0",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
     "typescript": "4.8.4"
