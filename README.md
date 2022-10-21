@@ -7,6 +7,47 @@
 <img width="1609" alt="Swivel-fe To Do" src="./bg.png">
 <img width="1609" alt="Swivel-fe To Do" src="./coverage.png">
 
+## Features
+
+- ✅ Server-Side Rendering
+- ✅ List, Add, Edit, Delete employee
+- ✅ Form validation for all employee field
+- ✅ E2E test using Cypress
+
+## Structure
+
+This project's structure will look like this:
+
+```
+├── components
+├── cypress
+├── features
+├── pages
+├── README.md
+└── package.json
+```
+
+**components**
+This is where your common React components will live. Each component will have a directory containing the `.tsx` file
+
+**cypress**
+This is where your Cypress test will live.
+
+**features**
+This is where your features in your application will live. The feature structure like this:
+
+```
+├── <feature_name>
+│   ├── components
+│   ├── hooks
+│   ├── utils
+│   ├── <feature_name>.provider.tsx
+│   ├── ...
+```
+
+**pages**
+This is [NestJS](https://nextjs.org/docs/basic-features/pages) page.
+
 ## Installation
 
 ```bash
