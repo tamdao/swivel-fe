@@ -9,7 +9,7 @@
 ## Installation
 
 ```bash
-$ yarn install
+$ yarn
 ```
 
 ## Running the app
@@ -18,13 +18,14 @@ You need to change the `.env.local.example` to `.env.local` and start the [BE](h
 
 ```bash
 # development
-$ yarn run dev
+$ yarn dev
 ```
 
 ## Test
 
 ```bash
 # tests
-$ yarn run test
+$ yarn start:ci
+$ yarn test
 ```
 
