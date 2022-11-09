@@ -102,7 +102,7 @@ const EmployeeList: NextPage<EmployeeListProps> = (
   );
 };
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   try {
     const employeesResponse = await fetch(
       `${process.env.NEXT_PUBLIC_API_URL}/employees`
